@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smallwei.firstprogect.fragments.Personal_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="35sp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/person_login"
+            android:text="登陆/注册"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/person_manager"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:text="管理我的糗事"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/person_night"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:text="夜间模式"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/person_sound"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:text="静音模式"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/person_set"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:text="设置"/>
+
+</LinearLayout>
