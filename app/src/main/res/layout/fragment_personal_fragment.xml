@@ -15,7 +15,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
+            android:src="@mipmap/shit"
             />
         <Button
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:id="@+id/person_manager"
-        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableLeft="@mipmap/shit"
         android:gravity="left|center_vertical"
         android:text="管理我的糗事"/>
     <Button
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:id="@+id/person_night"
-        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableLeft="@mipmap/shit"
         android:gravity="left|center_vertical"
         android:text="夜间模式"/>
     <Button
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:id="@+id/person_sound"
-        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableLeft="@mipmap/shit"
         android:gravity="left|center_vertical"
         android:text="静音模式"/>
     <Button
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:id="@+id/person_set"
-        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableLeft="@mipmap/shit"
         android:gravity="left|center_vertical"
         android:text="设置"/>
 

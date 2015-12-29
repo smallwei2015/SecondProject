@@ -42,9 +42,12 @@ public class ThingFragment extends Fragment implements View.OnTouchListener {
         pager= (ViewPager) view.findViewById(R.id.viewPager);
         tabLayout= (TabLayout) view.findViewById(R.id.tab);
         List<String> titles = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            titles.add("title");
-        }
+        titles.add("专享");
+        titles.add("视频");
+        titles.add("文章");
+        titles.add("图片");
+        titles.add("精华");
+        titles.add("最新");
 
         MyAdapter adapter = new MyAdapter(getChildFragmentManager(), titles);
         pager.setAdapter(adapter);

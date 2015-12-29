@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
-        <item android:title="糗事" android:icon="@mipmap/ic_launcher" android:id="@+id/item_thing"/>
-        <item android:title="朋友圈" android:icon="@mipmap/ic_launcher" android:id="@+id/item_circle"/>
-        <item android:title="发现" android:icon="@mipmap/ic_launcher" android:id="@+id/item_find"/>
-        <item android:title="小纸条" android:icon="@mipmap/ic_launcher" android:id="@+id/item_tips"/>
-        <item android:title="我"  android:icon="@mipmap/ic_launcher" android:id="@+id/item_me"/>
+        <item android:title="糗事" android:icon="@mipmap/shit" android:id="@+id/item_thing"/>
+        <item android:title="朋友圈" android:icon="@mipmap/shit" android:id="@+id/item_circle"/>
+        <item android:title="发现" android:icon="@mipmap/shit" android:id="@+id/item_find"/>
+        <item android:title="小纸条" android:icon="@mipmap/shit" android:id="@+id/item_tips"/>
+        <item android:title="我"  android:icon="@mipmap/shit" android:id="@+id/item_me"/>
     </group>
     <item android:title="group">
         <menu>
