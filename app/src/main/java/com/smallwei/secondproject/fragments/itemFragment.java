@@ -62,7 +62,7 @@ public class itemFragment extends Fragment {
             case "视频":
                 type="video";
                 videoItems=new ArrayList<>();
-                videoAdapter=new VideoAdapter(videoItems,getContext());
+                videoAdapter=new VideoAdapter(videoItems,getContext(),getActivity());
                 listView.setAdapter(videoAdapter);
                 VideoInterface videoInterface = build.create(VideoInterface.class);
                 Call<VideoItem> videoCall = videoInterface.getList(type, 1);
