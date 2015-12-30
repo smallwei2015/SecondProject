@@ -3,11 +3,17 @@
     android:layout_height="match_parent"
     tools:context="com.smallwei.secondproject.fragments.itemFragment">
 
-    <ListView
+    <android.support.v4.widget.SwipeRefreshLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/item_list_view">
+        android:layout_height="wrap_content"
+        android:id="@+id/thing_swipe">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/item_list_view">
 
-    </ListView>
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
 
 </FrameLayout>

@@ -1,6 +1,7 @@
 package com.smallwei.secondproject;
 
 import android.app.ActionBar;
+import android.net.Uri;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
@@ -18,7 +19,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.TextView;
 
+import com.facebook.drawee.view.SimpleDraweeView;
 import com.smallwei.secondproject.adapters.MyAdapter;
 import com.smallwei.secondproject.fragments.Circle_fragment;
 import com.smallwei.secondproject.fragments.Personal_fragment;
@@ -46,6 +49,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigation = (NavigationView) findViewById(R.id.navigator);
         navigation.setNavigationItemSelectedListener(this);
         slide.setPanelSlideListener(this);
+
+        //头像部分处理
+        TextView headName= (TextView) findViewById(R.id.head_name);
+        SimpleDraweeView drawee= (SimpleDraweeView) findViewById(R.id.head_icon);
+        drawee.setImageURI(Uri.parse("http://e.hiphotos.baidu.com/image/h%3D200/sign=a0901680a3c27d1eba263cc42bd4adaf/b21bb051f819861842d54ba04ded2e738bd4e600.jpg"));
+
 
         actionBar=getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
